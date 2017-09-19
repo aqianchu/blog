@@ -4,3 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+<h1>Hello jekyll</h1>
+<p>This is the index page</p>
+<a href="{{ site.baseurl }}/index.html">Home</a>
+<p>My post list:</p>
+<a href="{{ site.posts }}">next post</a>
